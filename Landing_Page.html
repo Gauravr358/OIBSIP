@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Service Landing Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+    body {
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      background: linear-gradient(135deg, #0f029a, #feb47b);
+      color: white;
+      text-align: center;
+      padding: 2.5rem 0;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #333;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+    nav ul li {
+      margin: 0 1rem;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      display: block;
+      transition: background 0.3s;
+    }
+    nav ul li a:hover {
+      background: #575757;
+      border-radius: 5px;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #f0f4f8;
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero button {
+      background: #010b99;
+      border: none;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 25px;
+      margin-top: 1rem;
+      transition: background 0.3s;
+    }
+    .hero button:hover {
+      background: #2ce90b;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+      background: #ffffff;
+    }
+    .feature-card {
+      background: #f0f8ff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .feature-card img {
+      width: 70px;
+      margin-bottom: 1rem;
+    }
+    .feature-card h3 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+    }
+    .feature-card p {
+      color: #666;
+    }
+    .global-section {
+      background: #c7cfee;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .global-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .map-image {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #022191;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Service That Just Works</h1>
+    <p>Go further with the #1 trusted leader in technology services</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <h2>Secure, Reliable, and Fast</h2>
+    <p>Experience seamless access and advanced protection on every device you own.</p>
+    <button>Get Started</button>
+  </section>
+  <section class="features">
+    <div class="feature-card">
+      <img src="Data_security_24.jpg" alt="Feature Icon">
+      <h3>Secure Access Worldwide</h3>
+      <p>Connect reliably from anywhere, to anywhere.</p>
+    </div>
+    <div class="feature-card">
+      <img src="click.jpg" alt="Feature Icon">
+      <h3>One Click to Safety</h3>
+      <p>Stay secure online with just one click.</p>
+    </div>
+    <div class="feature-card">
+      <img src="everyDevice.jpg" alt="Feature Icon">
+      <h3>Works on Every Device</h3>
+      <p>Protect all your gadgets seamlessly.</p>
+    </div>
+  </section>
+  <section class="global-section">
+    <h2>Ultra-Fast Services Around the Globe</h2>
+    <img class="map-image" src="global-connection.png" alt="Global Map">
+  </section>
+  <footer>
+    <p>&copy; 2025 All Rights Reserved. Powered by Gaurav Nishanrav.</p>
+  </footer>
+</body>
+</html>
